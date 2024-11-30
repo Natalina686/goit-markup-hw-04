@@ -1,0 +1,387 @@
+:root {
+  /*colors*/
+  --cl-navy-blue: #2E2F42;
+  --cl-iris: #4D5AE5;
+  --cl-ocean: #404BBF;
+  --cl-green: #31D0AA;
+  --cl-slate: #434455;
+  --cl-light-slate: #8E8F99;
+  --cl-cornflower: #E7E9FC;
+  --cl-cloud: #F4F4FD;
+  --cl-white: #FFFFFF;
+  --cl-dairy: #FCFCFC;
+
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--cl-slate);
+  background-color: var(--cl-white);
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-style: normal;
+  color: var(--cl-navy-blue); /* Колір для посилань у навігаційному меню */
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.head-section {
+  border-bottom: 1px solid #e7e9fc
+}
+
+.header-nav-cont {
+  display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between; 
+  align-items: center; 
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.origin-logo {
+  color: var(--cl-navy-blue);
+}
+
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--cl-iris);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+
+.nav-list a,
+.address-list a {
+  color: var(--cl-navy-blue); 
+  padding: 8px 0;
+}
+
+.nav-list a:hover,
+.nav-list a:focus,
+.address-list a:hover,
+.address-list a:focus {
+  color: var(--cl-ocean);
+}
+
+.nav-list a:active {
+  color: var(--cl-ocean);
+  text-decoration: underline;
+}
+
+.nav-list a {
+  padding: 24px 0; 
+}
+
+
+.address-navi {
+  font-style: normal;
+}
+
+.address-list a {
+  display: flex;
+  
+}
+
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav-list, .address-list {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-list-item, .address-list-item {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 40px;
+}
+
+.address-list-item {
+  margin-right: 40px;
+}
+
+.address-list-item:last-child {
+  margin-right: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.benefits-desc,
+.foto-desc,
+.address-list a {
+  color: var(--cl-slate);
+}
+
+.hero-section {
+  background-color: var(--cl-navy-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 188px 0;
+  margin: 0 auto;
+}
+
+.hero-section-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--cl-white);
+  max-width: 496px;
+  margin-bottom: 48px;
+}
+
+.hero-section-button {
+  display: block;
+  margin: 0 auto;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  background-color: var(--cl-iris);
+  letter-spacing: 0.04em;
+  color: var(--cl-white);
+  cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: none;
+  min-width: 169px;
+  height: 56px
+  
+}
+
+.hero-section-button:hover,
+.hero-section-button:focus {
+  background-color: var(--cl-ocean);
+  border: 1px solid;
+}
+
+.benefits-title,
+.team-section-title,
+.portfolio-title {
+  font-size: 36px; 
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--cl-navy-blue);
+}
+
+.benefits-title {
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.2;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.benefits-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.benefits-item {
+width: 264px;
+height: 104px;
+
+
+}
+
+.team-section-foto-title,
+.portfolio-foto-title {
+  letter-spacing: 0.02em;
+  font-weight: 500; 
+  line-height: 1.5; 
+}
+
+.benefits-desc {
+  letter-spacing: 0.02em;
+  line-height: 1.5; 
+}
+
+
+.team-section {
+  background-color: var(--cl-cloud);
+}
+
+.team-section-title,
+.portfolio-title {
+  margin-bottom: 72px;
+}
+
+.team-section-list {
+  display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+
+.team-chef-desc {
+  padding: 32px 0;
+}
+
+.team-section-foto-title {
+  text-transform: capitalize;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--cl-navy-blue);
+  text-align: center; 
+  margin-bottom: 8px;
+}
+
+.team-section-item {
+  background-color: var(--cl-white);
+border-radius: 0px 0px 4px 4px;
+
+box-shadow: 0px 1px 6px 0px #2E2F4214;
+
+
+}
+
+.team-section-foto-title {
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-section-item .foto-desc {
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.portfolio {
+  background-color: var(--cl-white);
+}
+
+.portfolio-list {
+  display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 24px;
+    row-gap: 48px;
+    margin: 0 auto;
+}
+
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
+  border-radius: 0px 0px 4px 4px;
+
+  box-shadow: 0px 1px 6px 0px #2E2F4214;
+}
+
+.portfolio-foto-title {
+  text-transform: capitalize;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--cl-navy-blue);
+  margin-bottom: 8px
+
+}
+
+.foto-desc {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-desc {
+  padding: 32px 16px;
+  border: 1px solid var(--cl-cornflower);
+  border-top: none;
+}
+
+
+.white-logo,
+.footer-desc {
+  color: var(--cl-cloud);
+}
+
+.footer-part {
+  background-color: var(--cl-navy-blue);
+  padding: 100px 0;
+  
+}
+
+.footer-subs .logo-link {
+  margin-bottom: 16px;
+}
+
+.footer-desc {
+  line-height: 1.5;
+  text-align: left;
+  letter-spacing: 0.02em;
+  max-width: 264px;
+}
