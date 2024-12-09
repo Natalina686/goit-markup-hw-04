@@ -110,7 +110,16 @@ button {
 
 .nav-list a:active {
   color: var(--cl-ocean);
-  text-decoration: underline;
+  
+}
+
+.nav-list-item.active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--cl-ocean);
 }
 
 .nav-list a {
