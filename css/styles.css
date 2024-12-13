@@ -616,6 +616,7 @@ footer {
   width: 24px;
   height: 24px;
   fill: var(--cl-white);
+  fill: #f4f4fd;
 }
 
 .social-icon:hover, 
@@ -628,9 +629,10 @@ footer {
 .footer-container {
   display: flex;
   justify-content: space-between; /* Распределяем элементы по краям */
-  align-items: flex-start; /* Выравниваем по вертикали */
+  align-items: baseline; /* Выравниваем по вертикали */
   width: 100%; /* Задаем ширину контейнера */
   max-width: 1158px; /* Ограничиваем максимальную ширину для лучшего отображения */
-  margin: 0 auto; /* Центрируем контейнер */
+  margin: 0 auto;
+  margin-right: 120px; /* Центрируем контейнер */
 }
 
