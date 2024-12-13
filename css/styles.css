@@ -554,8 +554,10 @@ box-shadow: 0px 1px 6px 0px #2E2F4214;
 }
 
 footer {
-  display: block;
+  display: inline-block;
 }
+
+
 
 .footer-part {
   display: flex;
@@ -619,5 +621,16 @@ footer {
 .social-icon:hover, 
 .social-icon:focus{
   background-color: var(--cl-green);
+}
+
+/* нова частина*/
+
+.footer-container {
+  display: flex;
+  justify-content: space-between; /* Распределяем элементы по краям */
+  align-items: flex-start; /* Выравниваем по вертикали */
+  width: 100%; /* Задаем ширину контейнера */
+  max-width: 1158px; /* Ограничиваем максимальную ширину для лучшего отображения */
+  margin: 0 auto; /* Центрируем контейнер */
 }
 
